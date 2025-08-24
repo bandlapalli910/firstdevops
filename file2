@@ -1,0 +1,8 @@
+// File: HelloBoges.java
+
+public class HelloBoges {
+    public static void main(String[] args) {
+        System.out.println("Hello, Boges!");
+        System.out.println("Welcome to Java programming!");
+    }
+}
