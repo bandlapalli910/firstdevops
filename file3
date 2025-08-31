@@ -1,0 +1,23 @@
+3. 🔐 Private Repo with No Credentials
+
+If the repo is private and no Git credentials are configured, Jenkins may silently fail to fetch commits.
+
+Fix it:
+
+In Jenkins, go to:
+
+Manage Jenkins > Credentials > Add a credential
+
+Choose Username/Password or Personal Access Token (PAT)
+
+In your job config, under Git settings, add that credential
+
+Let me know:
+
+If the repo is public or private
+
+If there’s at least one commit
+
+What the actual branch name is (master, main, etc.)
+
+And I’ll guide you precisely.
